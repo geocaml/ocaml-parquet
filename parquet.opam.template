@@ -1,0 +1,3 @@
+pin-depends:[
+  [ "thrift.dev" "git+https://github.com/vbmithr/ocaml-thrift-lib#09d9b4cb07580cf81c6dcd41a3adb9b8f105ec5c" ]
+]

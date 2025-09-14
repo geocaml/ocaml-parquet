@@ -1,0 +1,15 @@
+(library
+ (name parquet)
+ (public_name parquet)
+ (libraries cstruct thrift optint))
+
+; (rule
+;   (deps parquet.thrift)
+;   (mode promote)
+;   (targets parquet_types.ml parquet_types.mli)
+;   (action (run thrift --gen ocaml -out . %{deps})))
+
+(env
+ (dev
+  (flags
+   (:standard -w -39))))

@@ -1,0 +1,5 @@
+(test
+ (name test_parquet)
+ (deps
+  (source_tree fixtures))
+ (libraries alcotest cstruct parquet.unix))
